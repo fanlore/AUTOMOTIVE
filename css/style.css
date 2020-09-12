@@ -2,6 +2,7 @@ body {
     margin:0;
     padding:0;
     font-family: 'Montserrat', sans-serif;
+    cursor:url('../img/cursor.cur'),default;
 }
 * {
     box-sizing: border-box;
@@ -18,6 +19,7 @@ img {
 .no-scroll {
     overflow:hidden;
 }
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -51,7 +53,7 @@ img {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 160px;
 }
 .navigation__items {
     display:flex;
@@ -66,12 +68,13 @@ img {
 .navigation__item:hover {
     background-color: #130e27;
     transition:0.5s;
-    cursor: pointer;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 .navigation__link {
     text-decoration:none;
     color:white;
     text-transform: uppercase;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 
 .navigation__link-active {
@@ -144,7 +147,7 @@ label {
     border:2px solid #c62314;
     color:#c62314;
     transition:1s;
-    cursor: pointer;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 .contact__text {
     padding-right: 110px;
@@ -217,9 +220,8 @@ label {
 }
 .story__button:hover {
     border:2px solid #c62314;
-
     background-color:#130e27;
-    cursor: pointer;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 /* Цены */
 .pricing {
@@ -277,7 +279,7 @@ label {
     border:2px solid #c62314;
     color:#c62314;
     transition:1s;
-    cursor: pointer;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 .pricing__button-red{
     background-color:#c62314;
@@ -287,7 +289,7 @@ label {
     border:2px solid #130e27;
     color:#130e27;
     transition:1s;
-    cursor: pointer;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 .card-popular {
     position: relative;
@@ -364,7 +366,7 @@ label {
 }
 .testimonial__item:hover  {
     background-color:#efefef;
-    cursor:pointer;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 .testimonial__item:hover .testimonial__description{
      color:#c62314;
@@ -390,11 +392,12 @@ label {
 }
 .gallery__link{
     color:#130e27;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 .gallery_more:hover {
     text-decoration: underline;
     transition:0.5s;
-    cursor: pointer;
+    cursor:url('../img/cursorPointer.cur'),pointer;
 }
 .gallery__images {
     display:flex;
@@ -530,7 +533,6 @@ label {
         top:0px;
         right:0;
         background: url('../img/header/bg.jpg');
-        background-size: cover;
         width:100%;
         height:100%; 
     }
@@ -680,8 +682,5 @@ label {
     }
     .contact__description {
         font-size: 14px;
-    }
-    li.card__list__item {
-    font-size: 14px;
     }
 }
