@@ -683,4 +683,7 @@ label {
     .contact__description {
         font-size: 14px;
     }
+    .navigation {
+        margin-bottom:50px;
+    }
 }
