@@ -686,4 +686,7 @@ label {
     .navigation {
         margin-bottom:50px;
     }
+    .card__list__item {
+        font-size:14px;
+    }
 }
