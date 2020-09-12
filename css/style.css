@@ -510,6 +510,7 @@ li.card__list__item {
         top:0px;
         right:0;
         background: url('../img/header/bg.jpg');
+        background-size: cover;
         width:100%;
         height:100%; 
     }
