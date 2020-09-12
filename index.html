@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AM</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./favicon.ico" type="ico">
+</head>
+<body>
+  <header class="header">
+   <div class="container">
+      <nav class="navigation">
+        <img src="img/header/logo.svg" alt="" class="navigation__logo">
+        <div class="m-menu">
+          <ul class="navigation__items">
+            <li class="navigation__item navigation__link-active"><a href="#" class="navigation__link">Главная</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Сервисы</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Галерея</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+          </ul>
+        </div>
+        <button class="m-menu__button">
+          <span class="m-menu__button__inner"></span>
+        </button>
+      </nav>
+    <!-- /.navigation -->
+    <div class="contact">
+      <div class="contact__text">
+        <h2 class="contact__title"><span class="contact__sell">Продай свою</span> машину прямо сейчас</h2>
+        <p class="contact__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+      </div>
+      <form action="" class="form">
+        <span class="form__title">Запросить квоту</span>
+        <input type="text" placeholder="Полное имя">
+        <input type="email" placeholder="Почта">
+        <input type="phone" placeholder="Номер телефона">
+        <input type="text" placeholder="Страна">
+        <label>
+          <input type="checkbox">Я принимаю эти правила и условия
+        </label>
+        <button class="button form__button">Отправить</button>
+      </form>
+    </div>
+    <!-- /.contact -->
+   </div>
+   <!-- /.container -->
+  </header>
+  <!-- /.header -->
+  <main class="main">
+      <section class="services">
+        <div class="container">
+          <h2 class="services__title"><span class="services__our">Наши</span> сервисы</h2>
+          <div class="services__items">
+            <div class="services__item">
+              <img src="img/servicesIcons/heart.svg" alt="" class="services__icon">
+              <div class="services__description">Сделаем ваше путешествие красивым и легким</div>
+              <!-- /.services__description -->
+            </div>
+            <!-- /.services__item -->
+            <div class="services__item">
+              <img src="img/servicesIcons/tools.svg" alt="" class="services__icon">
+              <div class="services__description">Инструменты, которые помогут вам добиться успеха</div>
+              <!-- /.services__description -->
+            </div>
+            <!-- /.services__item -->
+            <div class="services__item">
+              <img src="img/servicesIcons/torch.svg" alt="" class="services__icon">
+              <div class="services__description">Идеи, которые взорвут вас на ровном месте.</div>
+              <!-- /.services__description -->
+            </div>
+            <!-- /.services__item -->
+            <div class="services__item">
+              <img src="img/servicesIcons/aim.svg" alt="" class="services__icon">
+              <div class="services__description">Проложите свой путь к прекрасному миру.</div>
+              <!-- /.services__description -->
+            </div>
+            <!-- /.services__item -->
+          </div>
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.services -->
+      <section class="story">
+        <div class="container">
+          <div class="story__items">
+            <p class="story__description">Мы занимаемся бизнесом уже более 6 лет, предоставляя удивительные услуги клиентам, и люди любят их до глубины души. Просмотрите нашу историю, чтобы узнать больше.</p>
+            <button class="button story__button">Наша история</button>
+          </div>
+          <!-- /.story__items -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.story -->
+      <section class="pricing">
+        <div class="container">
+          <h2 class="pricing__title">Расценки</h2>
+          <div class="cards">
+            <div class="card">
+              <h3 class="card__title">Starter</h3>
+              <span class="card__price">FREE</span>
+              <ul class="card__list">
+                <li class="card__list__item">Бесплатный Сервис</li>
+                <li class="card__list__item">Несколько счетов</li>
+                <li class="card__list__item">Нет управления</li>
+                <li class="card__list__item">--</li>
+                <li class="card__list__item">--</li>
+              </ul>
+              <button class="button pricing__button">Попробовать</button>
+            </div>
+            <!-- /.pricing__card -->
+            <div class="card card-popular">
+              <h3 class="card__title">Business</h3>
+              <span class="card__price">$97</span>
+              <ul class="card__list">
+                <li class="card__list__item">Бесплатный Сервис</li>
+                <li class="card__list__item">Несколько счетов</li>
+                <li class="card__list__item">Нет управления</li>
+                <li class="card__list__item">Бесконечные данные</li>
+                <li class="card__list__item">-</li>
+              </ul>
+              <button class="button pricing__button pricing__button-red">Подписать</button>
+            </div>
+            <!-- /.pricing__card -->
+            <div class="card">
+              <h3 class="card__title">Professional</h3>
+              <span class="card__price">$297</span>
+              <ul class="card__list">
+                <li class="card__list__item">Бесплатный Сервис</li>
+                <li class="card__list__item">Несколько счетов</li>
+                <li class="card__list__item">Нет управления</li>
+                <li class="card__list__item">Бесконечные данные</li>
+                <li class="card__list__item">Все, что вам нужно</li>
+              </ul>
+              <button class="button pricing__button">Подписать</button>
+            </div>
+            <!-- /.pricing__card -->
+          </div>
+          <!-- /.pricing__cards -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.pricing -->
+
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback__items">
+            <div class="testimonial">
+              <h2 class="testimonial__title">Свидетельство</h2>
+              <div class="testimonial__items">
+                <img src="img/guy.png" alt="" class="testimonial__img">
+                <div class="testimonial__item">
+                  <p class="testimonial__description">Я был связан с этой компанией уже целую вечность и просто хочу сказать, что это отличная работа designcoon.</p>
+                  <span class="testimonial__author">DJ Bravo-частый путешественник</span>
+                </div>
+              </div>
+              <div class="testimonial__items">
+                <img src="img/girl.png" alt="" class="testimonial__img">
+                <div class="testimonial__item">
+                  <p class="testimonial__description">Я был связан с этой компанией уже целую вечность и просто хочу сказать, что это отличная работа designcoon.</p>
+                  <span class="testimonial__author">DJ Bravo-частый путешественник</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.testimonial -->
+            <div class="gallery">
+              <h2 class="gallery__title">Галерея</h2>
+              <div class="gallery__images">
+                <div class="gallery__image"><img src="./img/lemon.png" alt=""></div>
+                <div class="gallery__image"><img src="./img/lemon.png" alt=""></div>
+                <div class="gallery__image"><img src="./img/lemon.png" alt=""></div>
+                <div class="gallery__image"><img src="./img/lemon.png" alt=""></div>
+                <div class="gallery__image"><img src="./img/lemon.png" alt=""></div>
+                <div class="gallery__image"><img src="./img/lemon.png" alt=""></div>
+              </div>
+              <p class="gallery_more"><a href="#" class="gallery__link">Посмотреть больше изображений</a></p>
+            </div>
+            <!-- /.gallery -->
+          </div>
+        </div>
+      </section>
+
+      <!-- /.feedback -->
+  </main>
+  <!-- /.main -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__info">
+        <p class="footer__description">Все права защищены |  2016  |  Сделано с любовью работниками <span class="designer">DesignCoon</span></p>
+        <img src="img/footer__logo.svg" alt="" class="footer__logo">
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+  <script src="js/main.js"></script>
+</body>
+</html>
