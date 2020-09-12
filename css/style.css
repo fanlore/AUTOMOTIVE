@@ -38,6 +38,9 @@ img {
 ::-webkit-scrollbar-thumb:window-inactive {
     background: #ADADAD;
 }
+::-webkit-scrollbar-thumb:hover {
+    background:#f02714;
+}
 /* Шапка */
 .header {
     padding-top:35px;
