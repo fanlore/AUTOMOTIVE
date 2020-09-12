@@ -18,6 +18,26 @@ img {
 .no-scroll {
     overflow:hidden;
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #c62314;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #ADADAD;
+}
 /* Шапка */
 .header {
     padding-top:35px;
