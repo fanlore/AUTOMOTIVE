@@ -648,4 +648,13 @@ label {
     .testimonial__item {
         padding-right:30px;
     }
+    .navigation__logo {
+        max-width: 50%;
+    }
+    .contact__title {
+        font-size: 30px;
+    }
+    .contact__description {
+        font-size: 14px;
+    }
 }
