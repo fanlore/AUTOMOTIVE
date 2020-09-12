@@ -253,9 +253,6 @@ label {
     margin:0;
     margin-bottom: 35px;
 }
-li.card__list__item {
-    font-size: 14px;
-}
 .card__price {
     font-size:60px;
     font-weight: bold;
@@ -683,5 +680,8 @@ li.card__list__item {
     }
     .contact__description {
         font-size: 14px;
+    }
+    li.card__list__item {
+    font-size: 14px;
     }
 }
